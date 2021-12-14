@@ -1,9 +1,8 @@
 {
   "name": "@meetfranz/electron-cookies",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Provides document.cookie support for Electron",
   "main": "cookies.js",
-  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

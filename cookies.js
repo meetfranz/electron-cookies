@@ -4,7 +4,7 @@ const ToughCookie = require("tough-cookie");
 const WebStorageCookieStore = require("tough-cookie-web-storage-store");
 
 const path = require("path");
-const { app } = require("@electron/main");
+const { app } = require("@electron/remote");
 
 function enable(options) {
   let origin = options ? options.origin : null;
