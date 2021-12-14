@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "description": "Provides document.cookie support for Electron",
   "main": "cookies.js",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,18 +17,9 @@
     "url": "https://github.com/exponentjs/electron-cookies/issues"
   },
   "homepage": "https://github.com/exponentjs/electron-cookies#readme",
-  "eslintConfig": {
-    "extends": "exponent"
-  },
   "dependencies": {
     "@electron/remote": "^2.0.1",
     "tough-cookie": "^2.3.1",
     "tough-cookie-web-storage-store": "^1.0.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.1.1",
-    "eslint-config-exponent": "^2.0.2",
-    "eslint-plugin-babel": "^3.3.0"
   }
 }
