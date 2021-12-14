@@ -34,7 +34,6 @@ function _getLocationString(origin) {
 
   let appPath = app.getAppPath();
   let relativePath = path.relative(appPath, decodeURI(location.pathname));
-  console.log(encodeURI(relativePath));
   return `${origin}/${encodeURI(relativePath)}${location.search}${
     location.hash
   }`;

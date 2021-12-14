@@ -1,6 +1,6 @@
 {
   "name": "@meetfranz/electron-cookies",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Provides document.cookie support for Electron",
   "main": "cookies.js",
   "scripts": {
