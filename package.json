@@ -1,6 +1,6 @@
 {
-  "name": "@exponent/electron-cookies",
-  "version": "2.0.0",
+  "name": "@meetfranz/electron-cookies",
+  "version": "3.0.0",
   "description": "Provides document.cookie support for Electron",
   "main": "cookies.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "extends": "exponent"
   },
   "dependencies": {
+    "@electron/remote": "^2.0.1",
     "tough-cookie": "^2.3.1",
     "tough-cookie-web-storage-store": "^1.0.0"
   },
